@@ -1,0 +1,320 @@
+ fonts {
+  font-family: Orbitron;
+}
+
+trough {
+  color: rgb(212, 230, 21);
+  /*background-color: rgba(128, 128, 128, 0.4);*/
+}
+
+trough slider {
+  border:solid 3px#7ae9f7;
+  background: #7ae9f7;
+}
+
+trough highlight {
+  background: #7ae9f7;
+}
+
+.control-center .notification-row:focus,
+.control-center .notification-row:hover {
+  opacity: 1;
+  background: rgba(81, 74, 15, 0.6);
+  color: #7ae9f7;
+}
+
+.notification-row {
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.notification {
+  background: rgba(28, 85, 99, 0.9);
+  border: 2px solid #00ffff;
+  border-radius: 10px;
+  margin: 3px;
+  padding: 5px 10px;
+}
+
+.notification-content {
+  background: transparent;
+}
+
+.notification-default-action {
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.close-button {
+  background: #c54082;
+  color: rgb(30, 77, 89);
+  text-shadow: none;
+  padding: 0px;
+  border-radius: 5px;
+  margin-top: 5px;
+  /*margin-right: 5px;*/
+}
+
+.close-button:hover {
+  box-shadow: none;
+  background: #f776b7;
+  transition: all 0.15s ease-in-out;
+  border: none;
+}
+
+.notification-action {
+  border: 2px solid #34728a;
+  border-top: none;
+  border-radius: 5px;
+}
+
+.notification-default-action:hover,
+.notification-action:hover {
+  color: #7ad0f7;
+  background: rgb(28, 74, 86);
+}
+
+.notification-default-action {
+  border-radius: 5px;
+  margin: 0px;
+}
+
+.notification-default-action:not(:only-child) {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.notification-action:first-child {
+  border-bottom-left-radius: 10px;
+  background: #214c54;
+}
+
+.notification-action:last-child {
+  border-bottom-right-radius: 10px;
+  background: #1b282b;
+  border: 2px solid #007c7c;
+}
+
+.inline-reply {
+  margin-top: 8px;
+}
+
+.inline-reply-entry {
+  background: rgb(51, 85, 88);
+  color: rgba(169, 177, 214, 1);
+  caret-color: rgba(169, 177, 214, 1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+}
+
+.inline-reply-button {
+  margin-left: 4px;
+  background: rgb(23, 40, 44);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  color: rgba(169, 177, 214, 1);
+}
+
+.inline-reply-button:disabled {
+  background: initial;
+  color: rgb(150, 150, 150);
+  border: 1px solid transparent;
+}
+
+.inline-reply-button:hover {
+  background: rgb(46, 84, 102);
+}
+
+.image {
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.summary {
+  font-size: 16px;
+  font-weight: 700;
+  background: transparent;
+  color: rgb(106, 186, 206);
+  text-shadow: none;
+}
+
+.time {
+  font-size: 16px;
+  font-weight: 700;
+  background: transparent;
+  color: rgb(125, 176, 189);
+  text-shadow: none;
+  margin-right: 18px;
+}
+
+.body {
+  font-size: 15px;
+  font-weight: 400;
+  background: transparent;
+  color: rgba(169, 177, 214, 1);
+  text-shadow: none;
+}
+
+.control-center {
+   background: rgba(0, 57, 68, 0.8);
+  /*border: 2px solid;
+  border-color: #2CC3E9;*/
+  border-radius: 35px;
+  border-top-right-radius: 5px;
+}
+
+.control-center-list {
+  background: transparent;
+}
+
+.control-center-list-placeholder {
+  opacity: 0.5;
+}
+
+.floating-notifications {
+  background: transparent;
+}
+
+.blank-window {
+  background: alpha(black, 0.1);
+}
+
+.widget-title {
+  color: #7aedf7;
+  background: transparent;
+  padding: 10px 0px 0px 10px;
+  margin: 0 0 0 5px;
+  border-bottom: 2px solid;
+}
+
+.widget-title > button {
+  color: #7aedf7;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.widget-title > button:hover {
+  background: rgba(250, 77, 141, .65)
+  /*background: rgb(55, 81, 84);*/
+}
+
+.widget-dnd {
+  background: transparent;
+  padding: 15px 0 0 0;
+  margin: 5px 15px;
+  border-radius: 15px;
+  font-size: large;
+  color: #7ae2f7;
+}
+
+.widget-dnd > switch {
+  border-radius: 15px;
+  background: #004542;
+}
+
+.widget-dnd > switch:checked {
+  background: #fa4d8d;
+  border: 1px solid #f776b7;
+}
+
+.widget-dnd > switch slider,
+.widget-dnd > switch:checked slider {
+  background: #7ae2f7;
+  border-radius: 15px;
+}
+
+.widget-label {
+  margin: 10px 10px 5px 10px;
+}
+
+.widget-label > label {
+  font-size: 1rem;
+  color: rgba(169, 177, 214, 1);
+}
+
+.widget-mpris {
+  color: rgba(169, 177, 214, 1);
+  background: transparent;
+  border-radius: 10px;
+}
+
+.widget-mpris > box > button {
+  border-radius: 10px;
+}
+
+.widget-mpris-player {
+  padding: 5px 10px;
+  margin: 10px;
+  opacity: 0.8;
+}
+
+.widget-mpris-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #7ae2f7;
+}
+
+.widget-mpris-subtitle {
+  font-size: 1rem;
+  color: #7ae2f7;
+}
+
+.widget-buttons-grid {
+  font-size: x-large;
+  padding-left: 100px;
+  /*margin: 20px 10px 5px 10px;*/
+  border-radius: 15px;
+  background: transparent;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button {
+  /*margin: 3px;*/
+  background: transparent;
+  border: none;
+  border-radius: 20px;
+  color: #7ae2f7;  
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+  background: rgb(122, 222, 247);
+  color: rgba(26, 27, 38, 1);
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:checked {
+  background: rgb(106, 206, 193);
+  color: rgba(26, 27, 38, 1);
+}
+
+.widget-menubar > box > .menu-button-bar > button {
+  border: none;
+  background: transparent;
+}
+
+.topbar-buttons > button {
+  border: none;
+  background: transparent;
+}
+
+.widget-volume {
+  background: transparent;
+  padding: 10px 5px 5px;
+  margin: 5px 10px;
+  font-size: 2rem;
+  color: #7ae9f7;
+  border-top: 2px solid;
+  border-radius: 0px;
+  border-color: #004542;;
+}
+
+.widget-backlight {
+  background: transparent;
+  padding: 5px;
+  margin: 5px 10px;
+  font-size: 2rem;
+  color: #7adef7;
+}
