@@ -238,16 +238,18 @@ trough highlight {
 }
 
 .widget-mpris {
-  color: rgba(169, 177, 214, 1);
+  color: #7aedf7;
   background: transparent;
   border-radius: 10px;
 }
 
 .widget-mpris > box > button {
   border-radius: 10px;
+  color: #7aedf7;
 }
 
 .widget-mpris-player {
+  color: #7aedf7;
   padding: 5px 10px;
   margin: 10px;
   opacity: 0.8;
@@ -266,7 +268,7 @@ trough highlight {
 
 .widget-buttons-grid {
   font-size: x-large;
-  padding-left: 100px;
+  padding-left: 90px;
   /*margin: 20px 10px 5px 10px;*/
   border-radius: 15px;
   background: transparent;
